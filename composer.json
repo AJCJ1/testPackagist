@@ -1,0 +1,48 @@
+{
+  "name": "arnold/testPackagist",
+  "version": "1.0.0",
+  "description": "testing testing 123",
+  "homepage": "https://github.com/AJCJ1/testPackagist",
+  "keywords": [
+    "test"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Arnold Cubici-Jones",
+      "email": "arnoldcubicijones@hotmail.co.uk",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0",
+    "guzzlehttp/guzzle": "^7.5.0",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5.26",
+    "phpunit/php-code-coverage": "^9.2.18",
+    "mockery/mockery": "^1.5"
+  },
+  "autoload": {
+    "psr-4": {
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+    }
+  },
+  "extra": {
+    "laravel": {
+        "providers": [
+        ],
+        "aliases": {
+        }
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "symfony/flex": true
+    }
+  }
+}
